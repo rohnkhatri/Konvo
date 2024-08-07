@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
+import MainComponent from './components/MainContainer';
 
 function App() {
   return (
-    <div>Konvo</div>
+    <div className='App'>
+      
+      <MainComponent/>
+    </div>
   )
 }
 
