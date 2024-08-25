@@ -12,7 +12,7 @@ import ConversationsItem from './ConversationsItem';
 function Sidebar() {
   const [conversations ,setConversations] =useState([
     {
-      name : 'Test#1',
+      name : 'Rahul',
       lastMessage : 'Last Message #1',
       timeStamp : 'today',
     },
